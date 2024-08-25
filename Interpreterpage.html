@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact an Interpreter</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: larger;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 40px;
+            text-align: center;
+            width: 250px;
+            min-height:30vh;
+        }
+
+        .card img {
+            border-radius: 10%;
+            margin-bottom: 15px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 4px 17px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+            margin-bottom: 100px;
+            cursor: pointer;
+        }
+
+        .contact-button:hover {
+            background-color: #367c39;
+        }
+    </style>
+    <script>
+        function redirectToMeet() {
+            // This should be replaced with the actual logic to generate a Google Meet link
+            const meetLink = "https://meet.google.com/uce-eatm-ski"; // Example Google Meet link
+            window.location.href = meetLink;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Contact an Interpreter</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="./img/instructor.png" alt="Interpreter 1">
+            <h3>Rajesh Kumar</h3>           
+            <p>Email:  rajesh.kumar@gmail.com</p>
+            <p>Phone: 91 98765 43210</p>
+            <button class="contact-button" onclick="redirectToMeet()">Contact</button>
+        </div>
+
+        <div class="card">
+            <img src="./img/instructor.png" alt="Interpreter 2">
+            <h3>Priya Sharma</h3>           
+            <p>Email: priya.sharma@gmail.com</p>
+            <p>Phone: 87654 32109</p>
+            <button class="contact-button" onclick="redirectToMeet()">Contact</button>
+        </div>
+
+        <div class="card">
+            <img src="./img/instructor.png" alt="Interpreter 3">
+            <h3>Arjun Singh</h3>           
+            <p>Email: arjun.singh@gmail.com</p>
+            <p>Phone:  76543 21098</p>
+            <button class="contact-button" onclick="redirectToMeet()">Contact</button>
+        </div>
+
+        <div class="card">
+            <img src="./img/instructor.png" alt="Interpreter 4">
+            <h3>Ravi Verma</h3>            
+            <p>Email: ravi.verma@gmail.com</p>
+            <p>Phone: 54321 09876</p>
+            <button class="contact-button" onclick="redirectToMeet()">Contact</button>
+        </div>
+
+        <div class="card">
+            <img src="./img/instructor.png" alt="Interpreter 5">
+            <h3>Vikram Rao</h3>            
+            <p>Email: vikram.rao@gmail.com</p>
+            <p>Phone: 32109 87654</p>
+            <button class="contact-button" onclick="redirectToMeet()">Contact</button>
+        </div>
+
+        <div class="card">
+            <img src="./img/instructor.png" alt="Interpreter 6">
+            <h3>Karan Mehta</h3>            
+            <p>Email: karan.mehta@gmail.com</p>
+            <p>Phone: 10987 65432</p>
+            <button class="contact-button" onclick="redirectToMeet()">Contact</button>
+        </div>
+
+        <!-- Add more interpreter cards as needed -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CounselorsContact.com</p>
+    </footer>
+</body>
+</html>
